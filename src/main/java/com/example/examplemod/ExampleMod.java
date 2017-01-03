@@ -1,4 +1,4 @@
-package main.java.com.example.examplemod;
+package com.example.examplemod;
 
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
@@ -15,6 +15,7 @@ public class ExampleMod
     public void init(FMLInitializationEvent event)
     {
         // some example code
+    	//Test
         System.out.println("DIRT BLOCK >> "+Blocks.DIRT.getUnlocalizedName());
     }
 }
